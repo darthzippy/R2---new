@@ -32,7 +32,7 @@ Net::SMTP.class_eval do
     raise IOError, 'SMTP session already started' if @started
     
     if VERSION == '1.8.6'
-      check_auth_args user, secret, authtype if user or secret
+      check_auth_args user, secret if user or secret
     elsif VERSION == '1.8.7'
       check_auth_args user, secret
     end
