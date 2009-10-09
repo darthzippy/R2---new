@@ -1,0 +1,14 @@
+development:
+  :enable_starttls_auto: true
+  :address: smtp.gmail.com
+  :port: 587
+  :authentication: plain
+  :user_name: cetapps@gmail.com
+  :password: Hermione1
+production:
+  :enable_starttls_auto: true
+  :address: smtp.gmail.com
+  :port: 587
+  :authentication: plain
+  :user_name: cetapps@gmail.com
+  :password: Hermione1
