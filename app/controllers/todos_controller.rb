@@ -45,8 +45,7 @@ class TodosController < ApplicationController
           end  
         end        
       end
-      #check_if_send_email
-      #Notifier.deliver_todo_notification(@user)
+      check_if_send_email
     end
   end
   
